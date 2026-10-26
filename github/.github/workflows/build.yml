@@ -9,6 +9,8 @@ on:
         type: choice
         required: true
         default: release_aab
+        options:
+        - release_aab
         - debug_apk
       ref:
         description: "Git ref (branch/tag/sha)"
